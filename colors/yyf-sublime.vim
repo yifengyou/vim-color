@@ -1,6 +1,6 @@
 " File: yyf.vim
 " Author: yifengyou <yifengyou666@gmail.com>
-" Date: 2019-04-14
+" Date: 2019-04-15
 " Vim color file - yyf (look like Sublime version)
 "
 
@@ -16,10 +16,10 @@ let g:colors_name = "yyf"
 
 " Default GUI Colours
 let s:foreground = "d6d6d6"
-let s:background = "1a1a1a"
+let s:background = "SkyBlue"
 let s:selection = "5a647e"
 let s:line = "050505"
-let s:comment = "ff0000"
+let s:comment = "797979" " 注释颜色
 let s:red = "ac4142"
 let s:orange = "e87d3e"
 let s:yellow = "e5b567"
@@ -270,7 +270,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     end
 
     " Standard Highlighting
-    call <SID>X("Title", s:comment, "", "bold")
+    call <SID>X("Title", s:comment, "", "")
     call <SID>X("Identifier", s:orange, "", "")
     call <SID>X("Statement", s:wine, "", "")
     call <SID>X("Conditional", s:wine, "", "")
