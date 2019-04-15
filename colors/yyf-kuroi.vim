@@ -61,7 +61,7 @@ let s:palette.gui.gitgutterdlt = { 'dark' : "#d75f87"        , 'light' : "#d75f8
 let s:cterm_foreground = "250"
 let s:cterm_selection  = "240"
 let s:cterm_line       = "235"
-let s:cterm_comment    = "243"
+let s:cterm_comment    = "22"
 
 let s:palette.cterm.background   = { 'dark' : "0"                , 'light' : "254" }
 let s:palette.cterm.foreground   = { 'dark' : s:cterm_foreground , 'light' : "16"  }
