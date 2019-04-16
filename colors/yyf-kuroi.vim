@@ -26,7 +26,7 @@ let s:palette = {'gui' : {} , 'cterm' : {}}
 let s:gui_background = "#1b1918"
 let s:gui_selection  = "#373b41"
 let s:gui_line       = "#282a2e"
-let s:gui_comment    = "#707880"
+let s:gui_comment    = "#03992b"
 
 let s:palette.gui.background   = { 'dark' : s:gui_background , 'light' : "#e4e4e4" }
 let s:palette.gui.foreground   = { 'dark' : "#c5c8c6"        , 'light' : "#000000" }
@@ -61,7 +61,7 @@ let s:palette.gui.gitgutterdlt = { 'dark' : "#d75f87"        , 'light' : "#d75f8
 let s:cterm_foreground = "250"
 let s:cterm_selection  = "240"
 let s:cterm_line       = "235"
-let s:cterm_comment    = "22"
+let s:cterm_comment    = "34"
 
 let s:palette.cterm.background   = { 'dark' : "0"                , 'light' : "254" }
 let s:palette.cterm.foreground   = { 'dark' : s:cterm_foreground , 'light' : "16"  }
